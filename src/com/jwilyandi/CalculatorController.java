@@ -12,9 +12,9 @@ import java.util.HashMap;
 @Controller
 public class CalculatorController 
 {
-	@RequestMapping(value="/", method = RequestMethod.GET)
+	@RequestMapping(value="/form", method = RequestMethod.GET)
 	public ModelAndView Calculator() {
-		return new ModelAndView("index","command",new Calculator());
+		return new ModelAndView("form","command",new Calculator());
 	}
 	
 	@RequestMapping(value="/result", method = RequestMethod.POST)
