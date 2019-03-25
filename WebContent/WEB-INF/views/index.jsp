@@ -13,11 +13,11 @@
 	<form:form method="POST" action="/spring-mvc-pbkk/result">
 		<table>
 			<tr>
-				<td><form:label path="num1">First Number:</form:label></td>
+				<td><form:label for="num1" path="num1">First Number:</form:label></td>
 				<td><form:input path="num1"/></td>
 			</tr>
 			<tr>
-				<td><form:label path="num2">Second Number:</form:label></td>
+				<td><form:label for="num2" path="num2">Second Number:</form:label></td>
 				<td><form:input path="num2"/></td>
 			</tr>
 			<tr>
