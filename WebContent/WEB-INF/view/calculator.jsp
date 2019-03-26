@@ -10,7 +10,7 @@
 <body>
 	<h1>PBKK Simple Calculator</h1>
 	
-	<form:form method="POST" action="/spring-mvc-pbkk/result">
+	<form:form method="POST" action="/spring-mvc/addcalculator" modelAttribute="calculator">
 		<table>
 			<tr>
 				<td><form:label for="num1" path="num1">First Number:</form:label></td>

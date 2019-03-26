@@ -25,7 +25,7 @@
 		</tr>
 		<tr>
 			<td>Result:</td>
-			<td>${result}</td>
+			<td>${resultcalc}</td>
 	</table>
 
 </body>
