@@ -9,5 +9,7 @@
 <body>
 	<h1>Spring Calculator</h1>
 	
+	<a href="/spring-mvc/calculator">START</a>
+	
 </body>
 </html>

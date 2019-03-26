@@ -33,7 +33,6 @@ public class CalculatorController
 		int num1 = calculator.getNum1();
 		int num2 = calculator.getNum2();
 		String operation = calculator.getOperation();
-		System.out.println(operation);
 		int res = calc(num1, num2, operation);
 
 		
@@ -68,7 +67,6 @@ public class CalculatorController
 	@ModelAttribute("operationList")
 	public HashMap<String,String> getOperationList() 
 	{
-		System.out.println("Apakah saya joke untukmu?");
 		HashMap<String,String> operationsList = 
 				new HashMap<String,String>();
 		operationsList.put("Pertambahan", "+");
